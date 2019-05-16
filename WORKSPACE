@@ -9,5 +9,4 @@ android_sdk_repository(
     name = "androidsdk",
     api_level = 27,
     build_tools_version = "26.0.1",
-    path = "/path/to/Android/sdk",
 )
