@@ -8,6 +8,7 @@ exports_files(["LICENSE"])
 
 android_library(
     name = "openjdk_kerberos",
+    visibility = ["//visibility:public"],
     srcs = glob(["java/**/*.java"]),
     javacopts = ["-Xep:AndroidJdkLibsChecker:OFF"],
 )
